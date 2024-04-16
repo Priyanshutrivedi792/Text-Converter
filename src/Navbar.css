@@ -1,0 +1,37 @@
+.nav-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #e4e2e2;
+    
+}
+
+
+
+.nav-bar1 {
+    display: flex; /* Hide the nav bar by default */
+    flex-direction:row;
+    width: 100%;
+    list-style: none;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+/* Ensure the list items are flexible and can shrink or grow as needed */
+.nav-bar1 li {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ad6161; /* Add a border to separate items */
+    cursor:grab;
+}
+.nav-bar1 li:hover{
+    color:#ea0a0a;
+    
+}
+
+/* Responsive styling */
+@media screen and (max-width: 600px) {
+    ol{
+        display: flex; /* Show the nav bar when the menu state is true */
+    }
+}

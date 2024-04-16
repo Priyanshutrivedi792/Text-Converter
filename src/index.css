@@ -1,0 +1,13 @@
+.main{
+  background-color: #b8b3b3;
+  font-family: 'Dela Gothic One', cursive;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.footer{
+  margin-top:2%;
+  
+  display:flex;
+  justify-content: center;
+  font-size: 0.8em;
+}

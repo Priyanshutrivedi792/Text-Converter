@@ -1,0 +1,55 @@
+/* Base styles */
+.appcontent {
+    margin-top: 8rem;
+    max-width: 800px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left:auto ;
+    text-align: center;
+}
+
+.area {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
+
+.upbtn {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.usertext p {
+    margin: 10px 0;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    .area {
+        max-width: 100%;
+    }
+
+    .upbtn {
+        width: 100%;
+        margin: 5px 0; /* Stack buttons vertically with space in between */
+    }
+
+    .usertext p {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .appcontent {
+        padding: 10px;
+    }
+
+    .upbtn {
+        padding: 15px 0; /* Larger tap targets for mobile */
+    }
+
+    .usertext p {
+        font-size: 12px; /* Smaller font size for very small screens */
+    }
+}
