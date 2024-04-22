@@ -13,6 +13,11 @@ Node.js installation for windows :-
 * Run the Installer: Double-click the downloaded .msi file to start the setup wizard.
 * Follow the Setup Wizard: The wizard will guide you through the installation process. Accept the license agreement, select the installation folder, and choose the components to install.
 * Finish the Installation: Click ‘Finish’ to complete the setup.
+  # PROJECT RUNNING
+* Install all the packages present in package.json file.
+* After installation run the `npm run start` command to run the project.
+* 
+  
 
 
 
